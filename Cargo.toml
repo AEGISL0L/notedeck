@@ -75,7 +75,7 @@ wasm-bindgen-futures = "0.4"
 
 # native:
 [target.'cfg(not(target_arch = "wasm32"))'.dependencies]
-tokio = { version = "1.16", features = ["macros", "rt-multi-thread", "fs"] }
+tokio = { version = "1.41", features = ["macros", "rt-multi-thread", "fs"] }
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 
 
